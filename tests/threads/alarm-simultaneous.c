@@ -52,7 +52,6 @@ test_sleep(int thread_cnt, int iterations)
   test.iterations = iterations;
   test.output_pos = output;
 
-
   /* Start threads. */
   ASSERT(output != NULL);
   for (i = 0; i < thread_cnt; i++)
